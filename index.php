@@ -13,8 +13,7 @@ ini_set('display_startup_errors', TRUE);
       Stop Being Paranoid
     </title>
     <?php include 'favicon/head.php'; ?>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" content="A simple example why paranoia can be a bad strategy for protecting yourself online">
+    <?php include 'meta.php'; ?>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <style>
       body {
